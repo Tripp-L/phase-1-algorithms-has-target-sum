@@ -1,4 +1,17 @@
+//Write a function called `hasTargetSum` that receives two arguments
 function hasTargetSum(array, target) {
+  for (let i = 0; i < array.length; i++) {
+    const currentNum = array[i]
+
+  for (let j = i + 1; j < array.length; j++)
+
+  if (currentNum + array[j] === target) {
+
+    return true;
+  }
+}
+    return false;
+  
   // Write your algorithm here
 }
 
